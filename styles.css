@@ -1,0 +1,73 @@
+body {
+  background-color: #feece2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.container {
+  height: 520px;
+  width: 300px;
+  border: 5px solid rgb(92, 88, 88);
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+form input {
+  width: 100%;
+  height: 100px;
+  border: none;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  text-align: right;
+  /* pointer-events: none; we can use this to disable clicking on the screen and typing */
+}
+
+button {
+  flex: 0 0 22%;
+  margin: 5px 0;
+  height: 52px;
+  width: 60px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+}
+.btn-equal {
+  background-color: green;
+}
+.lineOne {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lineTwo {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lineThree {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lineFour {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lineFive {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
